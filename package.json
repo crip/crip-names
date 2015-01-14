@@ -1,0 +1,26 @@
+{
+  "name": "module-boilerplate",
+  "version": "1.0.0",
+  "description": "Description of module-boilerplate",
+  "license": "MIT",
+  "repository": "adroiter/module-boilerplate",
+  "author": {
+    "name": "Name of the author",
+    "email": "your@email.com",
+    "url": "http://your.url"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": ">=2.1.0"
+  }
+}
