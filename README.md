@@ -1,4 +1,4 @@
-# crip-names
+# crip-names [![Build Status](https://travis-ci.org/crip/crip-names.svg)](https://travis-ci.org/crip/crip-names)
 
 > Get awesome crip names
 
