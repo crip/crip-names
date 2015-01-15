@@ -61,6 +61,11 @@ $ crip-names --help
     --type  Type of name: all|porn|diagnosis  Default: all
 ```
 
+## Inspired By [Sindre Sorhus](http://sindresorhus.com)
+
+- [`cat-names`](https://github.com/sindresorhus/cat-names) - Get popular cat names
+- [`dog-names`](https://github.com/sindresorhus/dog-names) - Get popular dog names
+
 ## License
 
 MIT © [Crip.io](http://crip.io/)
