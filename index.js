@@ -15,6 +15,7 @@ cripNames.forEach(function (el, i) {
 });
 
 var cripRandom = uniqueRandom(0, cripNames.length, -1);
+var allRandom = uniqueRandom(0, allCripNames.length, -1);
 
 exports.crip = cripNames;
 exports.all = allCripNames;
