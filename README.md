@@ -15,7 +15,7 @@ $ npm install --save crip-names
 ```javascript
 var cripNames = require('crip-names');
 
-cripNames.cripRandom();
+cripNames.allRandom();
 //=> Stephen Hawkings
 ```
 
@@ -27,17 +27,11 @@ Type: `array`
 
 Top crip names sorted by popularity.
 
-### .cripRandom()
-
-Type: `function`
-
-Random crip name.
-
 ### .allRandom()
 
 Type: `function`
 
-Random dog name.
+Random crip name.
 
 
 ## CLI
