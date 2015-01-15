@@ -15,7 +15,7 @@ var cli = meow({
 	'Options',
 	'  --all   Get all names instead of a random name',
 	'  --type  Type of name: all|porn|diagnosis  Default: all'
-  ].join('\n');
+  ].join('\n')
 });
 
 var type = cli.flags.type || 'all';
