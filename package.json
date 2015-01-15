@@ -1,13 +1,16 @@
 {
-  "name": "module-boilerplate",
+  "name": "crip-names",
   "version": "1.0.0",
-  "description": "Description of module-boilerplate",
+  "description": "Get awesome crip names",
   "license": "MIT",
-  "repository": "adroiter/module-boilerplate",
+  "repository": "johnie/crip-names",
+  "bin": {
+    "crip-names": "cli.js"
+  },
   "author": {
-    "name": "Name of the author",
-    "email": "your@email.com",
-    "url": "http://your.url"
+    "name": "Johnie Hjelm",
+    "email": "johniehjelm@me.com",
+    "url": "http://crip.io"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -16,11 +19,14 @@
     "test": "node test.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js",
+    "crip-names.json"
   ],
   "keywords": [],
   "dependencies": {},
   "devDependencies": {
-    "mocha": ">=2.1.0"
+    "meow": "^2.1.0",
+    "unique-random": "^1.0.0"
   }
 }
