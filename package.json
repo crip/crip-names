@@ -24,9 +24,11 @@
     "crip-names.json"
   ],
   "keywords": [],
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "meow": "^2.1.0",
     "unique-random": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
   }
 }
