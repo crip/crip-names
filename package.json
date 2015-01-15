@@ -23,7 +23,21 @@
     "cli.js",
     "crip-names.json"
   ],
-  "keywords": [],
+  "keywords": [
+    "crip",
+    "names",
+    "random",
+    "rand",
+    "cli-app",
+    "cli",
+    "bin",
+    "superb",
+    "awesome",
+    "word",
+    "words",
+    "list",
+    "array"
+  ],
   "dependencies": {
     "meow": "^2.1.0",
     "unique-random": "^1.0.0"
