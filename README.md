@@ -17,6 +17,9 @@ var cripNames = require('crip-names');
 
 cripNames.allRandom();
 //=> Stephen Hawkings
+
+cripNames.diagnosesRandom();
+//=> Duchennes
 ```
 
 ## API
@@ -27,11 +30,23 @@ Type: `array`
 
 Top crip names sorted by popularity.
 
+### .diagnoses
+
+Type: `array`
+
+Small list of diagnoses and physical disabilities
+
 ### .allRandom()
 
 Type: `function`
 
 Random crip name.
+
+### .diagnosesRandom()
+
+Type: `function`
+
+Random diagnoses.
 
 
 ## CLI

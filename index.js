@@ -4,19 +4,14 @@
  * Copyright © 2015 Johnie Hjelm
  */
 
-var uniqueRandom 	= require('unique-random');
+var uniqueRandomArray = require('unique-random-array');
 var cripNames 		= require('./crip-names.json');
 var diagnoses 		= require('./diagnoses.json');
 
-var allRandom = uniqueRandom(0, cripNames.length, -1);
-var diagnosesRandom = uniqueRandom(0, diagnoses.length, -1);
-
+// Export variables
 exports.all = cripNames;
+exports.diagnoses = diagnoses;
 
-exports.allRandom = function () {
-	return cripNames[allRandom()];
-};
-
-exports.diagnosesRandom = function () {
-	return diagnoses[diagnosesRandom()];
-}
+// Export functions
+exports.allRandom = uniqueRandomArray(cripNames);
+exports.diagnosesRandom = uniqueRandomArray(diagnoses);
