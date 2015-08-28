@@ -9,12 +9,17 @@ var cli = meow({
 	'  $ crip-names',
 	'  Stephen Hawkings',
 	'',
-	'  $ dog-names --type porn',
-	'  Fister Reeves',
+	'  $ crip-names --all',
+	'  Johnie Hjelm',
+	'  Viktor Johansson',
+	'  ...',
+	'',
+	'  $ crip-names --type diagnoses',
+	'  Spinal Muscular Atrophy',
 	'',
 	'Options',
 	'  --all   Get all names instead of a random name',
-	'  --type  Type of name: all|porn|diagnosis  Default: all'
+	'  --type  Type of name: all|diagnoses Default: all'
   ].join('\n')
 });
 
