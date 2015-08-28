@@ -2,7 +2,11 @@
 
 > Get awesome crip names
 
+![Stephen Hawking](stephen-hawking.png)
+
 The name lists are just JSON files and can be used wherever.
+
+_We accept PR for additional names and diagnoses_
 
 ## Install
 
