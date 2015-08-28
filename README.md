@@ -7,7 +7,7 @@ The name lists are just JSON files and can be used wherever.
 ## Install
 
 ```sh
-$ npm install --save crip-names
+$ npm install --global crip-names
 ```
 
 ## Usage
