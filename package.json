@@ -3,15 +3,22 @@
   "version": "1.1.0",
   "description": "Get awesome crip names and diagnoses",
   "license": "MIT",
-  "repository": "johnie/crip-names",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crip/crip-names.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crip/crip-names/issues"
+  },
+  "homepage": "https://github.com/crip/crip-names#readme",
   "bin": {
     "crip-names": "cli.js"
   },
-  "author": {
-    "name": "Johnie Hjelm",
-    "email": "johniehjelm@me.com",
-    "url": "http://crip.io"
-  },
+  "author": "Johnie Hjelm <johnie@hjelm.im> http://crip.io",
+  "contributors": [{
+    "name": "crip",
+    "email": "info@crip.se"
+  }],
   "engines": {
     "node": ">=0.10.0"
   },
