@@ -29,7 +29,7 @@
     "index.js",
     "cli.js",
     "crip-names.json",
-    "diagnoses.json",
+    "diagnoses.json"
   ],
   "keywords": [
     "crip",
