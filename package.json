@@ -1,7 +1,7 @@
 {
   "name": "crip-names",
-  "version": "1.1.4",
-  "description": "Get awesome crip names and diagnoses",
+  "version": "1.2.0",
+  "description": "Get awesome crip names, diagnoses and pornstar names",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -49,6 +49,7 @@
     "array"
   ],
   "dependencies": {
+    "lodash": "^3.10.1",
     "meow": "^2.1.0",
     "unique-random-array": "^1.0.0"
   },

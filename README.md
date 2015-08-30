@@ -1,6 +1,6 @@
 # crip-names [![Build Status](https://travis-ci.org/crip/crip-names.svg)](https://travis-ci.org/crip/crip-names)
 
-> Get awesome crip names
+> Get awesome crip names, diangoses and pornstar names
 
 ![Stephen Hawking](stephen-hawking.png)
 
@@ -40,6 +40,12 @@ Type: `array`
 
 Small list of diagnoses and physical disabilities
 
+### .porn
+
+Type: `array`
+
+Small list of weird and funny words to build pornstar names
+
 ### .allRandom()
 
 Type: `function`
@@ -51,6 +57,12 @@ Random crip name.
 Type: `function`
 
 Random diagnoses.
+
+### .pornstarRandom()
+
+Type: `function`
+
+Random funny crip pornstar name.
 
 
 ## CLI
@@ -74,9 +86,12 @@ $ crip-names --help
     $ crip-names --type diagnoses
     Spinal Muscular Atrophy
 
+    $ crip-names --type pornstar
+		Hawking Cutesack
+
   Options
     --all   Get all names instead of a random name
-    --type  Type of name: all|diagnoses  Default: all
+    --type  Type of name: all|diagnoses|pornstar  Default: all
 ```
 
 ## Inspired By [Sindre Sorhus](http://sindresorhus.com)
