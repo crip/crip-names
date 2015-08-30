@@ -24,6 +24,9 @@ cripNames.allRandom();
 
 cripNames.diagnosesRandom();
 //=> Duchennes
+
+cripNames.pornstarRandom();
+//=> Hawking Cutesack
 ```
 
 ## API
