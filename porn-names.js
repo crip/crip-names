@@ -6,10 +6,11 @@
  * @return {String}
  */
 
-var _ 								= require('lodash');
+var _                 = require('lodash');
 var uniqueRandomArray = require('unique-random-array');
-var cripNames 				= require('./crip-names.json');
-var pornstache 				= require('./pornstache.json');
+var cripNames         = require('./crip-names.json');
+var pornstache        = require('./pornstache.json');
+
 
 /**
  * Return a random number between specified params
@@ -23,6 +24,7 @@ var pornstache 				= require('./pornstache.json');
 var getRandomIntInclusive = function(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
 
 /**
  * Return first- or lastname from cripNames
@@ -65,6 +67,7 @@ var cripPornStar = function () {
 
 	return _.shuffle(wordArr).join(' ');
 }
+
 
 /**
  * Export cripPornStar()

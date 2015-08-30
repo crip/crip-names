@@ -17,7 +17,6 @@ var cli = meow({
 	'  $ crip-names --type diagnoses',
 	'  Spinal Muscular Atrophy',
 	'',
-	'',
 	'  $ crip-names --type pornstar',
 	'  Hawking Cutesack',
 	'',

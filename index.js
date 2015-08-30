@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict';
 /**
  * crip-names.js
@@ -5,19 +6,19 @@
  */
 
 var uniqueRandomArray = require('unique-random-array');
-var cripNames 				= require('./crip-names.json');
-var diagnoses 				= require('./diagnoses.json');
-var pornstache 				= require('./pornstache.json');
-var pornNames   			= require('./porn-names.js');
+var cripNames         = require('./crip-names.json');
+var diagnoses         = require('./diagnoses.json');
+var pornstache        = require('./pornstache.json');
+var pornNames         = require('./porn-names.js');
 
 // Export variables
-exports.all 			= cripNames;
+exports.all       = cripNames;
 exports.diagnoses = diagnoses;
-exports.porn 			= pornstache;
+exports.porn      = pornstache;
 
 // Export functions
-exports.allRandom 			= uniqueRandomArray(cripNames);
+exports.allRandom       = uniqueRandomArray(cripNames);
 exports.diagnosesRandom = uniqueRandomArray(diagnoses);
-exports.pornstarRandom 	= function () {
+exports.pornstarRandom  = function () {
 	return pornNames.cripPornStar;
 }
