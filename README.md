@@ -2,7 +2,7 @@
 
 > Get awesome crip names, diangoses and pornstar names
 
-<img src="https://raw.githubusercontent.com/crip/crip-names/master/crip-names.svg" alt="Crip Names">
+<img src="https://cdn.rawgit.com/crip/crip-names/master/crip-names.svg" alt="Crip Names">
 
 The name lists are just JSON files and can be used wherever.
 
