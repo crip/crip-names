@@ -2,7 +2,7 @@
 
 > Get awesome crip names, diangoses and pornstar names
 
-![Crip Names](crip-names.svg)
+<img src="crip-names.svg" alt="Crip Names">
 
 The name lists are just JSON files and can be used wherever.
 
