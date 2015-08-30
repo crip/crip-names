@@ -19,3 +19,9 @@ test('Crip Diagnoses', function (t) {
 	t.assert(cripNames.diagnoses[1] === 'Muscular Dystrophy');
 	t.end();
 });
+
+test('Crip Pornstar', function (t) {
+	t.plan(1);
+	t.assert(/\w\s\w/g.test(cripNames.pornstarRandom()));
+	t.end();
+});

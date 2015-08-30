@@ -17,9 +17,13 @@ var cli = meow({
 	'  $ crip-names --type diagnoses',
 	'  Spinal Muscular Atrophy',
 	'',
+	'',
+	'  $ crip-names --type pornstar',
+	'  Hawking Cutesack',
+	'',
 	'Options',
 	'  --all   Get all names instead of a random name',
-	'  --type  Type of name: all|diagnoses Default: all'
+	'  --type  Type of name: all|diagnoses|pornstar Default: all'
   ].join('\n')
 });
 
