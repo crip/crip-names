@@ -43,7 +43,7 @@ Type: `array`
 
 Small list of diagnoses and physical disabilities
 
-### .porn
+### .pornstar
 
 Type: `array`
 
@@ -87,7 +87,7 @@ $ crip-names --help
 		...
 
     $ crip-names --type diagnoses
-    Spinal Muscular Atrophy
+    	Spinal Muscular Atrophy
 
     $ crip-names --type pornstar
 		Hawking Cutesack

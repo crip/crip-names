@@ -9,7 +9,7 @@
 var _                 = require('lodash');
 var uniqueRandomArray = require('unique-random-array');
 var cripNames         = require('./crip-names.json');
-var pornstache        = require('./pornstache.json');
+var naughtyness       = require('./naughtyness.json');
 
 
 /**
@@ -53,7 +53,7 @@ var getCripName = function () {
  * @return {String}
  */
 
-var getPornWord = uniqueRandomArray(pornstache);
+var getPornWord = uniqueRandomArray(naughtyness);
 
 
 /**
