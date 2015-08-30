@@ -2,7 +2,7 @@
 
 > Get awesome crip names, diangoses and pornstar names
 
-![Stephen Hawking](stephen-hawking.png)
+![Crip Names](crip-names.svg)
 
 The name lists are just JSON files and can be used wherever.
 
