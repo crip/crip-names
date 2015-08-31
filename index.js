@@ -7,7 +7,7 @@
 var uniqueRandomArray = require('unique-random-array');
 var cripNames         = require('./crip-names.json');
 var diagnoses         = require('./diagnoses.json');
-var pornNames         = require('./porn-names.js');
+var nameCreator       = require('./name-creator.js');
 var naughtyness       = require('./naughtyness.json');
 
 // Export variables
@@ -19,5 +19,5 @@ exports.pornstar  = naughtyness;
 exports.allRandom       = uniqueRandomArray(cripNames);
 exports.diagnosesRandom = uniqueRandomArray(diagnoses);
 exports.pornstarRandom  = function () {
-	return pornNames.cripPornStar;
+	return nameCreator.cripPornStar;
 }

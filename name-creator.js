@@ -1,6 +1,6 @@
 'use strict';
 /**
- * porn-names.js
+ * name-creator.js
  * Copyright © 2015 Johnie Hjelm Crip™
  *
  * @return {String}
