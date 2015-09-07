@@ -11,7 +11,6 @@ var uniqueRandomArray = require('unique-random-array');
 var cripNames         = require('./crip-names.json');
 var naughtyness       = require('./naughtyness.json');
 
-
 /**
  * Return a random number between specified params
  *
@@ -24,7 +23,6 @@ var naughtyness       = require('./naughtyness.json');
 var getRandomIntInclusive = function(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
 
 /**
  * Return first- or lastname from cripNames
@@ -46,7 +44,6 @@ var getCripName = function () {
 	return nameArr[firstOrLast];
 }
 
-
 /**
  * Return a porn word
  *
@@ -54,7 +51,6 @@ var getCripName = function () {
  */
 
 var getPornWord = uniqueRandomArray(naughtyness);
-
 
 /**
  * Return a crip pornstar name
@@ -67,7 +63,6 @@ var cripPornStar = function () {
 
 	return _.shuffle(wordArr).join(' ');
 }
-
 
 /**
  * Export cripPornStar()
